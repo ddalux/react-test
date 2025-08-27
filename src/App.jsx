@@ -1,10 +1,11 @@
 import React from 'react'
+import Datepicker from './components/Datepicker'
 
 export default function App() {
   return (
-    <div className="app">
-      <h1>Hello Vite + React!</h1>
-      <p>This is a minimal Hello World created from the Vite guide.</p>
+    <div className="app p-6">
+      <h1 className="text-2xl font-bold mb-4">Datepicker demo</h1>
+      <Datepicker />
     </div>
   )
 }
